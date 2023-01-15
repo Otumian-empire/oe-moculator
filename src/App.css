@@ -1,0 +1,104 @@
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
+.myTitle {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #1b1725, #523d66);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.myButton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: #d5d9d980 0 2px 5px 0;
+  box-sizing: border-box;
+}
+
+.myButton:hover {
+  background-color: #523d66;
+}
+
+.myButton:focus {
+  border-color: #523d66;
+  box-shadow: #523d66 0 2px 5px 0;
+  outline: 0;
+}
+
+.myButtonFunction {
+  background-color: #33294e;
+}
+
+.myButtonSubmit {
+  background-color: #ec2222;
+}
+
+.myButtonKey {
+  background-color: #4a328b;
+}
+
+.myButtonOperator {
+  background-color: #102a72;
+}
+
+.myInputArea {
+  background: #000000;
+  margin-bottom: 10px;
+}
+
+.myForm {
+  margin: 5px;
+  padding: 25px;
+  background-image: linear-gradient(to right, #1b1725, #523d66);
+}
+
+.inputField {
+  /* width: fit-content; */
+  padding: 5px;
+  border: 2px #c01e1e;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.inputLabel {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+}
+
+.myFunctionArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.myRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+/* https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/ */
+/* https://getcssscan.com/css-buttons-examples */
+/* https://www.w3schools.com/howto/howto_css_labels.asp */
